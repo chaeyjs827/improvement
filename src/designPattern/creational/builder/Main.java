@@ -10,5 +10,13 @@ public class Main {
 				.build();
 		
 		System.out.println(student.toString());
+		
+		TestBuilder testBuilder = new TestBuilder();
+		
+		TestObj testObj = testBuilder
+					.setMessage("Ohhh HI")
+					.build();
+		
+		System.out.println(testObj);
 	}
 }
