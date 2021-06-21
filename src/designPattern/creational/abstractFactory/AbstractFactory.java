@@ -1,6 +1,5 @@
 package designPattern.creational.abstractFactory;
 
-public interface AbstractFactory<T> {
-	T create(String animalType);
+public abstract class AbstractFactory {
+	abstract Shape getShape(String shapeType);
 }
- 

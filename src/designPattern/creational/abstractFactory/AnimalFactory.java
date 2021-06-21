@@ -1,6 +1,6 @@
 package designPattern.creational.abstractFactory;
 
-public class AnimalFactory implements AbstractFactory<Animal> {
+public class AnimalFactory implements AnimalAbstractFactory<Animal> {
 
 	@Override
 	public Animal create(String animalType) {
