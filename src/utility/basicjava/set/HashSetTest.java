@@ -23,8 +23,8 @@ public class HashSetTest {
 		hs1.add("Alessandro");
 		hs1.add("Gianluigi");
 		
-		System.out.println(hs1.add("Alessandro"));	// 중복된 값을 입력하면 false가 리턴
-		System.out.println(hs1.add("Vincenzo"));	// 중복되지 않은 값을 입력하면 true가 리턴
+		System.out.println(hs1.add("Alessandro"));	// 중복된 값을 add false가 리턴
+		System.out.println(hs1.add("Vincenzo"));	// 중복되지 않은 값을 add true가 리턴
 		
 		// printing - enhanced for
 		for(String s : hs1) {
