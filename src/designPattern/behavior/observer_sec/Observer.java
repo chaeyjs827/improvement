@@ -1,5 +1,5 @@
 package designPattern.behavior.observer_sec;
 
-public class Observer {
-
+interface Observer {
+	public void update(float temp, float humidity, float pressure);
 }
